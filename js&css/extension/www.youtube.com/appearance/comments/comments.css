@@ -72,6 +72,7 @@
 @media screen and (min-width: 1000px){
 	html[data-page-type=video][it-comments-sidebar='true'] ytd-watch-flexy #primary, 
 	html[data-page-type=video][it-comments-sidebar='true'] ytd-watch-flexy #secondary{margin-top: 0 !important; padding-top: 0 !important; padding-right: 0;}
+	html[data-page-type=video][it-comments-sidebar='true'] ytd-watch-flexy #secondary::before { content: ""; height: 24px; display: block;}
 	html[data-page-type=video][it-comments-sidebar='true'] ytd-watch-flexy #primary {flex: 1 0 auto;padding: 0 24px; margin: 0;}
 	html[data-page-type=video][it-comments-sidebar='true'] ytd-watch-flexy #primary-inner {padding-top: 24px;}
 	html[data-page-type=video][it-comments-sidebar='true'] ytd-watch-flexy #player {margin: 0 auto;}
